@@ -1,0 +1,24 @@
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 20px;
+  }
+  
+  .marquee-content {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    
+    padding-left: 10px;
+    opacity: 25%;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%); /* Start offscreen to the right */
+    }
+  
+    100% {
+      transform: translateX(-100%); /* Move offscreen to the left */
+    }
+  }
+  

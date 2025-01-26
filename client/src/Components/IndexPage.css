@@ -1,0 +1,28 @@
+.speech{
+    padding: 5px 10px;
+    background-color: crimson;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+}
+
+.search-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.spinner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+}
+
+.spinner{
+    width: 69px;
+    height: 69px;
+}
